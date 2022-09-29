@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.10",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
@@ -22,9 +24,9 @@
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
   },
-  "config" : {
-    "commitizen" : {
-        "path" : "node_modules/cz-customizable"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
     }
   },
   "browserslist": [
